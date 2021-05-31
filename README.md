@@ -1,0 +1,3 @@
+# calcquiz
+A website I made for my math teacher to host math quizzes and store results. DB has been omitted. This was my first big website project so it is not very clean....
+But it works.
