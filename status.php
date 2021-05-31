@@ -1,5 +1,5 @@
 <?php include('server.php'); 
-    $conn = mysqli_connect('localhost', 'root','','user_data');
+    $conn = mysqli_connect('domain', 'username','password','table name');
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
