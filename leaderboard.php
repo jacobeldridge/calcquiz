@@ -43,7 +43,7 @@ h1{
 
 
 // Create connection
-$conn = mysqli_connect('localhost', 'root','','user_data');
+$conn = mysqli_connect('localhost', 'username','password','name of table');
 
 // Check connection
 if ($conn->connect_error) {
@@ -73,7 +73,8 @@ if (mysqli_num_rows($result) > 0) {
     }
     echo "</table>";
     ?>
-            <br>
+<!--ignore this please I hate css-->
+         <br>
         <br>
         <br>
         <br>
