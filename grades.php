@@ -26,7 +26,7 @@ th {
 
 
 // Create connection
-$conn = mysqli_connect('localhost', 'root','','user_data');
+$conn = mysqli_connect('domain', 'username','password','name of table');
 
 // Check connection
 if ($conn->connect_error) {
