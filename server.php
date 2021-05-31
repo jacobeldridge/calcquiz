@@ -6,7 +6,7 @@
     $username = '';
     $email = '';
     $errors = array();
-    $db = mysqli_connect('localhost', 'root','','user_data');
+    $db = mysqli_connect('domain', 'username','password','table name');
     $a = '';
 
 
