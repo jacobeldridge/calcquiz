@@ -1,0 +1,254 @@
+
+
+html, body {height:100%;}
+body{
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+
+
+    
+}
+.nosub{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    margin: auto;
+
+}
+
+.submitall{
+    position: relative;
+    margin: auto;
+    background-color: green;
+    border-radius: 6px;
+    border:2px solid green;
+    color:white;
+    width:17.5%;
+    height:55px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.retreat{
+    background-color: gray;
+    font-size: 25pt;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.retreat:hover{
+    background-color: white;
+}
+.last{
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro{
+    margin: auto;
+    width:60%;
+}
+.instructtext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+}
+.hed{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.instruct{
+    width:65%;
+    margin: auto;
+    border:4px solid green;
+    background-color:  lightgreen;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.direct{
+    font-size: 25pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    
+}
+.reload{
+    margin: auto;
+    font-size: 25pt;
+    background-color: rgb(255, 48, 48);
+}
+.submitall:hover{
+    background-color: white;
+    color:green;
+}
+.completed{
+    color: green;
+    font-size: 35pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.check{
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.tabtext{
+    font-family: verdana;
+    font-size: 20pt;
+    position: relative;
+    text-align: left;
+    border: 8px solid rgb(179, 36, 36);
+    
+    bottom: 8px;
+    left: 7.5%;
+    background-color: rgb(179, 36, 36);
+    color: white;
+}
+
+
+
+.qanda{
+    border: darkgreen;
+}
+table {
+    border-collapse: collapse;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(237, 181, 41);
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 20px;
+  }
+  td{
+      font-size: 16pt;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color:#003865;
+    color: white;
+  }
+h2 {
+    text-align: center;
+    font-size: 60px;
+
+  }
+  .text-center{
+    text-align: center;
+
+
+  }
+  .button{
+    font-size: 35pt;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 250px;
+    border-style: inset;
+    background-color: gold;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    
+}
+.button:hover {
+    background-color: white; /* Green */
+    
+  }
+  .p{
+      text-align: center;
+      font-size: 70px;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+
+
+  }
+  .space{
+      margin: 45px;
+  }
+  .plusf{
+      font-size: 50px;
+  }
+  
+
+  .trigthing{
+    display: inline;
+    font-size: 100px;
+      
+      
+      
+  }
+  .userinput{
+    
+    margin: auto;
+    text-align: center;
+   
+
+  }
+  .zero{
+      margin:0;
+      padding: 0;
+      height:0;
+      width:0;
+  }
+  .hidden{
+      text-align: center;
+      
+
+  }
+  .yourgrade{
+      margin: 4px;
+
+      font-size: 60px;
+      text-align: center;
+      border:6px solid green;
+  }
+  .button2{
+      font-size: 50px;
+      border-style: inset;
+  }
+  .timer{
+      position:absolute;
+      font-size: 75px;
+      display:inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      top:0;
+      left:0;
+  }
+  body{
+      margin:0;
+  }
+  .submit{
+      position: relative;
+      font-size: 40px;
+      top:175px;
+      
+  }
+  .submitdiv{
+      text-align: center;
+      max-height: 100px;
+  }
+  .counter{
+    position:absolute;
+    font-size: 60px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    top:0;
+    right:0;      
+  }
+  .stupid{
+      text-align: center;
+      font-size: 30px;
+      color: red;
+  }
+  
+
+
+
